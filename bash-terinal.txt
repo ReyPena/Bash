@@ -1,0 +1,5 @@
+shells:
+zsh
+fizsh
+to exit just type "exit"
+--------------------------------------------------

@@ -1,0 +1,12 @@
+# this is a example file for config ssh file (multiple gits)
+# githubPersonal
+Host personal
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa_personal
+
+# githubWork
+Host work
+   HostName bitbucket.com
+   User git
+   IdentityFile ~/.ssh/id_rsa_work
