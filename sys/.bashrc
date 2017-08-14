@@ -12,6 +12,11 @@ if [ -f /usr/share/git/git-prompt.sh ]; then
 . /usr/share/git/git-prompt.sh
 fi
 
+# If this file is there add it
+if [ -f /usr/share/git/completion/git-completion.bash ]; then
+. /usr/share/git/completion/git-completion.bash
+fi
+
 # If there is a alias file then use the file .bash_aliases
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
