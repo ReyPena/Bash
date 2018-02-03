@@ -1,0 +1,29 @@
+<keymap version="1" name="Atom" parent="Visual Studio">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="control up" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="control down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="alt shift up" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="alt shift down" />
+  </action>
+  <action id="ScrollUp">
+    <keyboard-shortcut first-keystroke="control shift up" />
+  </action>
+  <action id="ScrollDown">
+    <keyboard-shortcut first-keystroke="control shift down" />
+  </action>
+  <action id="AddSelectionForNextOccurrence">
+    <keyboard-shortcut first-keystroke="control d" />
+  </action>
+  <action id="DuplicateLineOrSection">
+    <keyboard-shortcut first-keystroke="control shift d" />
+  </action>
+</keymap>
