@@ -14,3 +14,8 @@ alias ..="cd ../"
 alias ...="cd ../../"
 alias ....="cd ../../../"
 
+# Docker #
+#========#
+alias dcleani="docker rm $(docker ps -aq)"
+alias dcleanc="docker rm $(docker ps -aq)"
+alias dstopall="docker stop $(docker ps -aq)"
