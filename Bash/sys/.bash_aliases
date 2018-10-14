@@ -16,6 +16,6 @@ alias ....="cd ../../../"
 
 # Docker #
 #========#
-alias dcleani="docker rm $(docker ps -aq)"
-alias dcleanc="docker rm $(docker ps -aq)"
-alias dstopall="docker stop $(docker ps -aq)"
+dock-rmi() { docker rmi `docker images -q`; }
+dock-rmc() { docker rm `docker ps -aq`; }
+dock-stop() { docker stop `docker ps -aq`; }
